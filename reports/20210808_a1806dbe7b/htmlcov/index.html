@@ -1,0 +1,804 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Coverage report</title>
+    <link rel="icon" sizes="32x32" href="favicon_32.png">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="jquery.ba-throttle-debounce.min.js"></script>
+    <script type="text/javascript" src="jquery.tablesorter.min.js"></script>
+    <script type="text/javascript" src="jquery.hotkeys.js"></script>
+    <script type="text/javascript" src="coverage_html.js"></script>
+    <script type="text/javascript">
+        jQuery(document).ready(coverage.index_ready);
+    </script>
+</head>
+<body class="indexfile">
+<div id="header">
+    <div class="content">
+        <h1>Coverage report:
+            <span class="pc_cov">40.291%</span>
+        </h1>
+        <img id="keyboard_icon" src="keybd_closed.png" alt="Show keyboard shortcuts" />
+        <form id="filter_container">
+            <input id="filter" type="text" value="" placeholder="filter..." />
+        </form>
+    </div>
+</div>
+<div class="help_panel">
+    <img id="panel_icon" src="keybd_open.png" alt="Hide keyboard shortcuts" />
+    <p class="legend">Hot-keys on this page</p>
+    <div>
+    <p class="keyhelp">
+        <span class="key">n</span>
+        <span class="key">s</span>
+        <span class="key">m</span>
+        <span class="key">x</span>
+        <span class="key">b</span>
+        <span class="key">p</span>
+        <span class="key">c</span> &nbsp; change column sorting
+    </p>
+    </div>
+</div>
+<div id="index">
+    <table class="index">
+        <thead>
+            <tr class="tablehead" title="Click to sort">
+                <th class="name left headerSortDown shortkey_n">Module</th>
+                <th class="shortkey_s">statements</th>
+                <th class="shortkey_m">missing</th>
+                <th class="shortkey_x">excluded</th>
+                <th class="shortkey_b">branches</th>
+                <th class="shortkey_p">partial</th>
+                <th class="right shortkey_c">coverage</th>
+            </tr>
+        </thead>
+        <tfoot>
+            <tr class="total">
+                <td class="name left">Total</td>
+                <td>13196</td>
+                <td>7678</td>
+                <td>535</td>
+                <td>2748</td>
+                <td>187</td>
+                <td class="right" data-ratio="6424 15944">40.291%</td>
+            </tr>
+        </tfoot>
+        <tbody>
+            <tr class="file">
+                <td class="name left"><a href="d_56e48acd472f6ae7___init___py.html">coverage/__init__.py</a></td>
+                <td>14</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="14 14">100.000%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_56e48acd472f6ae7___main___py.html">coverage/__main__.py</a></td>
+                <td>4</td>
+                <td>4</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="0 4">0.000%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_56e48acd472f6ae7_annotate_py.html">coverage/annotate.py</a></td>
+                <td>58</td>
+                <td>45</td>
+                <td>0</td>
+                <td>28</td>
+                <td>0</td>
+                <td class="right" data-ratio="13 86">15.116%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_56e48acd472f6ae7_bytecode_py.html">coverage/bytecode.py</a></td>
+                <td>10</td>
+                <td>0</td>
+                <td>0</td>
+                <td>6</td>
+                <td>0</td>
+                <td class="right" data-ratio="16 16">100.000%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_56e48acd472f6ae7_cmdline_py.html">coverage/cmdline.py</a></td>
+                <td>308</td>
+                <td>221</td>
+                <td>12</td>
+                <td>131</td>
+                <td>0</td>
+                <td class="right" data-ratio="89 439">20.273%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_56e48acd472f6ae7_collector_py.html">coverage/collector.py</a></td>
+                <td>211</td>
+                <td>93</td>
+                <td>2</td>
+                <td>84</td>
+                <td>15</td>
+                <td class="right" data-ratio="151 295">51.186%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_56e48acd472f6ae7_config_py.html">coverage/config.py</a></td>
+                <td>259</td>
+                <td>42</td>
+                <td>0</td>
+                <td>106</td>
+                <td>15</td>
+                <td class="right" data-ratio="294 365">80.548%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_56e48acd472f6ae7_context_py.html">coverage/context.py</a></td>
+                <td>57</td>
+                <td>49</td>
+                <td>0</td>
+                <td>36</td>
+                <td>1</td>
+                <td class="right" data-ratio="11 93">11.828%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_56e48acd472f6ae7_control_py.html">coverage/control.py</a></td>
+                <td>384</td>
+                <td>95</td>
+                <td>8</td>
+                <td>154</td>
+                <td>27</td>
+                <td class="right" data-ratio="374 538">69.517%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_56e48acd472f6ae7_data_py.html">coverage/data.py</a></td>
+                <td>57</td>
+                <td>11</td>
+                <td>0</td>
+                <td>34</td>
+                <td>10</td>
+                <td class="right" data-ratio="66 91">72.527%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_56e48acd472f6ae7_debug_py.html">coverage/debug.py</a></td>
+                <td>112</td>
+                <td>54</td>
+                <td>135</td>
+                <td>32</td>
+                <td>2</td>
+                <td class="right" data-ratio="62 144">43.056%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_56e48acd472f6ae7_disposition_py.html">coverage/disposition.py</a></td>
+                <td>20</td>
+                <td>15</td>
+                <td>0</td>
+                <td>4</td>
+                <td>0</td>
+                <td class="right" data-ratio="5 24">20.833%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_56e48acd472f6ae7_env_py.html">coverage/env.py</a></td>
+                <td>44</td>
+                <td>0</td>
+                <td>0</td>
+                <td>10</td>
+                <td>0</td>
+                <td class="right" data-ratio="54 54">100.000%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_56e48acd472f6ae7_exceptions_py.html">coverage/exceptions.py</a></td>
+                <td>17</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="17 17">100.000%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_56e48acd472f6ae7_execfile_py.html">coverage/execfile.py</a></td>
+                <td>174</td>
+                <td>145</td>
+                <td>0</td>
+                <td>58</td>
+                <td>0</td>
+                <td class="right" data-ratio="29 232">12.500%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_56e48acd472f6ae7_files_py.html">coverage/files.py</a></td>
+                <td>197</td>
+                <td>34</td>
+                <td>10</td>
+                <td>84</td>
+                <td>8</td>
+                <td class="right" data-ratio="221 281">78.648%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_56e48acd472f6ae7_html_py.html">coverage/html.py</a></td>
+                <td>258</td>
+                <td>212</td>
+                <td>0</td>
+                <td>98</td>
+                <td>0</td>
+                <td class="right" data-ratio="46 356">12.921%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_56e48acd472f6ae7_inorout_py.html">coverage/inorout.py</a></td>
+                <td>316</td>
+                <td>147</td>
+                <td>2</td>
+                <td>172</td>
+                <td>6</td>
+                <td class="right" data-ratio="243 488">49.795%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_56e48acd472f6ae7_jsonreport_py.html">coverage/jsonreport.py</a></td>
+                <td>37</td>
+                <td>26</td>
+                <td>0</td>
+                <td>8</td>
+                <td>0</td>
+                <td class="right" data-ratio="11 45">24.444%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_56e48acd472f6ae7_misc_py.html">coverage/misc.py</a></td>
+                <td>158</td>
+                <td>60</td>
+                <td>10</td>
+                <td>64</td>
+                <td>3</td>
+                <td class="right" data-ratio="123 222">55.405%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_56e48acd472f6ae7_multiproc_py.html">coverage/multiproc.py</a></td>
+                <td>58</td>
+                <td>39</td>
+                <td>0</td>
+                <td>10</td>
+                <td>0</td>
+                <td class="right" data-ratio="19 68">27.941%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_56e48acd472f6ae7_numbits_py.html">coverage/numbits.py</a></td>
+                <td>50</td>
+                <td>18</td>
+                <td>0</td>
+                <td>20</td>
+                <td>0</td>
+                <td class="right" data-ratio="42 70">60.000%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_56e48acd472f6ae7_parser_py.html">coverage/parser.py</a></td>
+                <td>716</td>
+                <td>356</td>
+                <td>57</td>
+                <td>322</td>
+                <td>15</td>
+                <td class="right" data-ratio="483 1038">46.532%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_56e48acd472f6ae7_phystokens_py.html">coverage/phystokens.py</a></td>
+                <td>111</td>
+                <td>71</td>
+                <td>0</td>
+                <td>54</td>
+                <td>1</td>
+                <td class="right" data-ratio="43 165">26.061%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_56e48acd472f6ae7_plugin_py.html">coverage/plugin.py</a></td>
+                <td>67</td>
+                <td>29</td>
+                <td>2</td>
+                <td>2</td>
+                <td>0</td>
+                <td class="right" data-ratio="38 69">55.072%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_56e48acd472f6ae7_plugin_support_py.html">coverage/plugin_support.py</a></td>
+                <td>169</td>
+                <td>103</td>
+                <td>0</td>
+                <td>14</td>
+                <td>1</td>
+                <td class="right" data-ratio="67 183">36.612%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_56e48acd472f6ae7_python_py.html">coverage/python.py</a></td>
+                <td>136</td>
+                <td>35</td>
+                <td>4</td>
+                <td>42</td>
+                <td>4</td>
+                <td class="right" data-ratio="123 178">69.101%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_56e48acd472f6ae7_pytracer_py.html">coverage/pytracer.py</a></td>
+                <td>120</td>
+                <td>104</td>
+                <td>2</td>
+                <td>52</td>
+                <td>0</td>
+                <td class="right" data-ratio="16 172">9.302%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_56e48acd472f6ae7_report_py.html">coverage/report.py</a></td>
+                <td>46</td>
+                <td>15</td>
+                <td>0</td>
+                <td>32</td>
+                <td>4</td>
+                <td class="right" data-ratio="52 78">66.667%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_56e48acd472f6ae7_results_py.html">coverage/results.py</a></td>
+                <td>178</td>
+                <td>26</td>
+                <td>1</td>
+                <td>58</td>
+                <td>6</td>
+                <td class="right" data-ratio="192 236">81.356%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_56e48acd472f6ae7_sqldata_py.html">coverage/sqldata.py</a></td>
+                <td>498</td>
+                <td>119</td>
+                <td>0</td>
+                <td>226</td>
+                <td>37</td>
+                <td class="right" data-ratio="518 724">71.547%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_56e48acd472f6ae7_summary_py.html">coverage/summary.py</a></td>
+                <td>97</td>
+                <td>21</td>
+                <td>0</td>
+                <td>44</td>
+                <td>11</td>
+                <td class="right" data-ratio="101 141">71.631%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_56e48acd472f6ae7_templite_py.html">coverage/templite.py</a></td>
+                <td>148</td>
+                <td>126</td>
+                <td>0</td>
+                <td>64</td>
+                <td>0</td>
+                <td class="right" data-ratio="22 212">10.377%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_56e48acd472f6ae7_tomlconfig_py.html">coverage/tomlconfig.py</a></td>
+                <td>108</td>
+                <td>74</td>
+                <td>2</td>
+                <td>22</td>
+                <td>0</td>
+                <td class="right" data-ratio="34 130">26.154%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_56e48acd472f6ae7_version_py.html">coverage/version.py</a></td>
+                <td>18</td>
+                <td>1</td>
+                <td>0</td>
+                <td>6</td>
+                <td>3</td>
+                <td class="right" data-ratio="20 24">83.333%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_56e48acd472f6ae7_xmlreport_py.html">coverage/xmlreport.py</a></td>
+                <td>145</td>
+                <td>25</td>
+                <td>0</td>
+                <td>50</td>
+                <td>9</td>
+                <td class="right" data-ratio="143 195">73.333%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_a44f0ac069e85531___init___py.html">tests/__init__.py</a></td>
+                <td>1</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="1 1">100.000%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_a44f0ac069e85531_conftest_py.html">tests/conftest.py</a></td>
+                <td>36</td>
+                <td>7</td>
+                <td>0</td>
+                <td>8</td>
+                <td>1</td>
+                <td class="right" data-ratio="34 44">77.273%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_a44f0ac069e85531_coveragetest_py.html">tests/coveragetest.py</a></td>
+                <td>198</td>
+                <td>101</td>
+                <td>6</td>
+                <td>64</td>
+                <td>4</td>
+                <td class="right" data-ratio="111 262">42.366%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_a44f0ac069e85531_covmodzip1_py.html">tests/covmodzip1.py</a></td>
+                <td>2</td>
+                <td>2</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="0 2">0.000%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_a44f0ac069e85531_goldtest_py.html">tests/goldtest.py</a></td>
+                <td>74</td>
+                <td>55</td>
+                <td>20</td>
+                <td>22</td>
+                <td>0</td>
+                <td class="right" data-ratio="19 96">19.792%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_a44f0ac069e85531_helpers_py.html">tests/helpers.py</a></td>
+                <td>117</td>
+                <td>58</td>
+                <td>0</td>
+                <td>37</td>
+                <td>3</td>
+                <td class="right" data-ratio="75 154">48.701%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_a44f0ac069e85531_mixins_py.html">tests/mixins.py</a></td>
+                <td>68</td>
+                <td>10</td>
+                <td>0</td>
+                <td>9</td>
+                <td>0</td>
+                <td class="right" data-ratio="63 77">81.818%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_3ffccc9e4958b7ce___init___py.html">tests/modules/pkg1/__init__.py</a></td>
+                <td>1</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="1 1">100.000%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_a44f0ac069e85531_osinfo_py.html">tests/osinfo.py</a></td>
+                <td>27</td>
+                <td>17</td>
+                <td>4</td>
+                <td>4</td>
+                <td>0</td>
+                <td class="right" data-ratio="14 31">45.161%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_a44f0ac069e85531_plugin1_py.html">tests/plugin1.py</a></td>
+                <td>24</td>
+                <td>24</td>
+                <td>0</td>
+                <td>2</td>
+                <td>0</td>
+                <td class="right" data-ratio="0 26">0.000%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_a44f0ac069e85531_plugin2_py.html">tests/plugin2.py</a></td>
+                <td>31</td>
+                <td>31</td>
+                <td>0</td>
+                <td>4</td>
+                <td>0</td>
+                <td class="right" data-ratio="0 35">0.000%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_a44f0ac069e85531_plugin_config_py.html">tests/plugin_config.py</a></td>
+                <td>11</td>
+                <td>11</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="0 11">0.000%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_a44f0ac069e85531_test_annotate_py.html">tests/test_annotate.py</a></td>
+                <td>35</td>
+                <td>25</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="10 35">28.571%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_a44f0ac069e85531_test_api_py.html">tests/test_api.py</a></td>
+                <td>714</td>
+                <td>1</td>
+                <td>2</td>
+                <td>22</td>
+                <td>0</td>
+                <td class="right" data-ratio="735 736">99.864%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_a44f0ac069e85531_test_arcs_py.html">tests/test_arcs.py</a></td>
+                <td>389</td>
+                <td>272</td>
+                <td>2</td>
+                <td>76</td>
+                <td>0</td>
+                <td class="right" data-ratio="119 465">25.591%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_a44f0ac069e85531_test_cmdline_py.html">tests/test_cmdline.py</a></td>
+                <td>345</td>
+                <td>249</td>
+                <td>19</td>
+                <td>34</td>
+                <td>0</td>
+                <td class="right" data-ratio="98 379">25.858%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_a44f0ac069e85531_test_collector_py.html">tests/test_collector.py</a></td>
+                <td>15</td>
+                <td>8</td>
+                <td>0</td>
+                <td>2</td>
+                <td>0</td>
+                <td class="right" data-ratio="7 17">41.176%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_a44f0ac069e85531_test_concurrency_py.html">tests/test_concurrency.py</a></td>
+                <td>248</td>
+                <td>179</td>
+                <td>8</td>
+                <td>60</td>
+                <td>0</td>
+                <td class="right" data-ratio="71 308">23.052%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_a44f0ac069e85531_test_config_py.html">tests/test_config.py</a></td>
+                <td>345</td>
+                <td>280</td>
+                <td>0</td>
+                <td>4</td>
+                <td>0</td>
+                <td class="right" data-ratio="65 349">18.625%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_a44f0ac069e85531_test_context_py.html">tests/test_context.py</a></td>
+                <td>163</td>
+                <td>113</td>
+                <td>0</td>
+                <td>19</td>
+                <td>0</td>
+                <td class="right" data-ratio="50 182">27.473%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_a44f0ac069e85531_test_coverage_py.html">tests/test_coverage.py</a></td>
+                <td>320</td>
+                <td>220</td>
+                <td>0</td>
+                <td>22</td>
+                <td>0</td>
+                <td class="right" data-ratio="100 342">29.240%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_a44f0ac069e85531_test_data_py.html">tests/test_data.py</a></td>
+                <td>566</td>
+                <td>459</td>
+                <td>2</td>
+                <td>8</td>
+                <td>0</td>
+                <td class="right" data-ratio="107 574">18.641%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_a44f0ac069e85531_test_debug_py.html">tests/test_debug.py</a></td>
+                <td>113</td>
+                <td>72</td>
+                <td>0</td>
+                <td>10</td>
+                <td>1</td>
+                <td class="right" data-ratio="42 123">34.146%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_a44f0ac069e85531_test_execfile_py.html">tests/test_execfile.py</a></td>
+                <td>149</td>
+                <td>109</td>
+                <td>2</td>
+                <td>12</td>
+                <td>0</td>
+                <td class="right" data-ratio="44 161">27.329%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_a44f0ac069e85531_test_filereporter_py.html">tests/test_filereporter.py</a></td>
+                <td>75</td>
+                <td>60</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="15 75">20.000%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_a44f0ac069e85531_test_files_py.html">tests/test_files.py</a></td>
+                <td>210</td>
+                <td>159</td>
+                <td>0</td>
+                <td>26</td>
+                <td>0</td>
+                <td class="right" data-ratio="53 236">22.458%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_a44f0ac069e85531_test_html_py.html">tests/test_html.py</a></td>
+                <td>556</td>
+                <td>456</td>
+                <td>0</td>
+                <td>28</td>
+                <td>0</td>
+                <td class="right" data-ratio="100 584">17.123%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_a44f0ac069e85531_test_json_py.html">tests/test_json.py</a></td>
+                <td>34</td>
+                <td>21</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="13 34">38.235%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_a44f0ac069e85531_test_misc_py.html">tests/test_misc.py</a></td>
+                <td>100</td>
+                <td>70</td>
+                <td>0</td>
+                <td>2</td>
+                <td>0</td>
+                <td class="right" data-ratio="32 102">31.373%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_a44f0ac069e85531_test_mixins_py.html">tests/test_mixins.py</a></td>
+                <td>50</td>
+                <td>36</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="14 50">28.000%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_a44f0ac069e85531_test_numbits_py.html">tests/test_numbits.py</a></td>
+                <td>97</td>
+                <td>57</td>
+                <td>0</td>
+                <td>10</td>
+                <td>0</td>
+                <td class="right" data-ratio="42 107">39.252%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_a44f0ac069e85531_test_oddball_py.html">tests/test_oddball.py</a></td>
+                <td>108</td>
+                <td>73</td>
+                <td>60</td>
+                <td>8</td>
+                <td>0</td>
+                <td class="right" data-ratio="35 116">30.172%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_a44f0ac069e85531_test_parser_py.html">tests/test_parser.py</a></td>
+                <td>163</td>
+                <td>126</td>
+                <td>0</td>
+                <td>10</td>
+                <td>0</td>
+                <td class="right" data-ratio="37 173">21.387%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_a44f0ac069e85531_test_phystokens_py.html">tests/test_phystokens.py</a></td>
+                <td>135</td>
+                <td>81</td>
+                <td>0</td>
+                <td>12</td>
+                <td>0</td>
+                <td class="right" data-ratio="56 147">38.095%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_a44f0ac069e85531_test_plugins_py.html">tests/test_plugins.py</a></td>
+                <td>412</td>
+                <td>336</td>
+                <td>0</td>
+                <td>34</td>
+                <td>0</td>
+                <td class="right" data-ratio="80 446">17.937%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_a44f0ac069e85531_test_process_py.html">tests/test_process.py</a></td>
+                <td>716</td>
+                <td>578</td>
+                <td>150</td>
+                <td>30</td>
+                <td>0</td>
+                <td class="right" data-ratio="146 746">19.571%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_a44f0ac069e85531_test_python_py.html">tests/test_python.py</a></td>
+                <td>38</td>
+                <td>23</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="15 38">39.474%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_a44f0ac069e85531_test_results_py.html">tests/test_results.py</a></td>
+                <td>57</td>
+                <td>33</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="24 57">42.105%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_a44f0ac069e85531_test_setup_py.html">tests/test_setup.py</a></td>
+                <td>29</td>
+                <td>20</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="9 29">31.034%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_a44f0ac069e85531_test_summary_py.html">tests/test_summary.py</a></td>
+                <td>425</td>
+                <td>354</td>
+                <td>11</td>
+                <td>8</td>
+                <td>0</td>
+                <td class="right" data-ratio="73 433">16.859%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_a44f0ac069e85531_test_templite_py.html">tests/test_templite.py</a></td>
+                <td>131</td>
+                <td>93</td>
+                <td>0</td>
+                <td>6</td>
+                <td>0</td>
+                <td class="right" data-ratio="38 137">27.737%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_a44f0ac069e85531_test_testing_py.html">tests/test_testing.py</a></td>
+                <td>238</td>
+                <td>174</td>
+                <td>2</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="64 238">26.891%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_a44f0ac069e85531_test_version_py.html">tests/test_version.py</a></td>
+                <td>21</td>
+                <td>12</td>
+                <td>0</td>
+                <td>2</td>
+                <td>0</td>
+                <td class="right" data-ratio="9 23">39.130%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="d_a44f0ac069e85531_test_xml_py.html">tests/test_xml.py</a></td>
+                <td>249</td>
+                <td>198</td>
+                <td>0</td>
+                <td>26</td>
+                <td>0</td>
+                <td class="right" data-ratio="51 275">18.545%</td>
+            </tr>
+        </tbody>
+    </table>
+    <p id="no_rows">
+        No items found using the specified filter.
+    </p>
+</div>
+<div id="footer">
+    <div class="content">
+        <p>
+            <a class="nav" href="https://coverage.readthedocs.io/en/6.0b2">coverage.py v6.0b2</a>,
+            created at 2021-08-08 16:48 +0000
+        </p>
+    </div>
+</div>
+</body>
+</html>
