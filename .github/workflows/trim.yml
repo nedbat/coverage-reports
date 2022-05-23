@@ -25,8 +25,8 @@ jobs:
 
       - name: Remove old reports
         run: |
-          ls -1d reports/$(date -d "2 months ago" +%Y%m)* | xargs git rm -r
+          ls -1d reports/$(date -d "7 months ago" +%Y%m)* | xargs git rm -r
           git config user.name 'Ned Batchelder'
           git config user.email 'ned@nedbatchelder.com'
-          git commit -m 'trim reports older than one month'
+          git commit -m 'trim reports older than six months'
           git push
