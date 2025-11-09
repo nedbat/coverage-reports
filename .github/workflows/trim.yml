@@ -21,12 +21,12 @@ jobs:
 
     steps:
       - name: Check out repo
-        uses: actions/checkout@v2
+        uses: actions/checkout@v5
 
       - name: Remove old reports
         run: |
-          ls -1d reports/$(date -d "7 months ago" +%Y%m)* | xargs git rm -r
+          ls -1d reports/$(date -d "3 months ago" +%Y%m)* | xargs git rm -r
           git config user.name 'Ned Batchelder'
           git config user.email 'ned@nedbatchelder.com'
-          git commit -m 'trim reports older than six months'
+          git commit -m 'trim reports older than two months'
           git push
